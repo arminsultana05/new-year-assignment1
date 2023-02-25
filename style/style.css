@@ -27,16 +27,60 @@
     font-size: 50px;
     font-weight: bold;
 }
-.banner p{
+
+.banner p {
     font-size: 16px;
     color: #444343;
     margin-top: 20px;
 
 }
-.banner button{
+
+.banner button {
     background-color: #F15B22;
     color: #FFFFFF;
     border: 0;
     padding: 15px 20px;
     margin-top: 15px;
+}
+
+.failures-sections {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.failures-images img {
+    width: 400px;
+}
+
+.failures-text {
+    width: 400px;
+}
+
+.failures-text h1 {
+    font-weight: bold;
+    columns: #151414;
+    font-size: 35px;
+}
+
+.failures-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.failures-text .all-list-item li {
+    list-style: none;
+    font-family: 'Work Sans';
+    color: #444343;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.all-list-item .fa-check{
+    color: #16D887;
 }
