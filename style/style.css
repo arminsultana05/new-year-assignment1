@@ -81,6 +81,42 @@
     margin-top: 10px;
     font-size: 16px;
 }
-.all-list-item .fa-check{
+
+.all-list-item .fa-check {
     color: #16D887;
+}
+
+.plan-section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.plan-section h1 {
+    text-align: center;
+    color: #151414;
+    font-size: 35px;
+    Font-family: Work Sans;
+    margin-top: 100px;
+}
+
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skill-section .development h4 {
+    color: #151414;
+    Font-family: Work Sans;
+    font-weight: bold;
+    font-family: 'Work Sans';
+    margin-top: 10px;
+   
+}
+
+.skill-section .development p {
+    color: #737272;
+    font-size: 16px;
+    margin-top: 5px;
 }
