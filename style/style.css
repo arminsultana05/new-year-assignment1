@@ -144,3 +144,44 @@
     background-color: FFFFFF;
     margin-top: 20px;
 }
+.project-section{
+    max-width: 80%;
+    margin: 0 auto;
+
+    
+}
+.project-section > h2{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+.project{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.project-text h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.project-text li{
+    list-style: none;
+    font-family: 'Work Sans';
+    color: #444343;
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+.project-text  .fas{
+  color: #16D887;
+
+}
+.card{
+    width: 450px;
+}
+.card img{
+    width: 100%;
+}
+.spesifiq-color{
+    color: #F15B22;
+}
